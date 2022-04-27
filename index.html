@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Portfolio | Peter Falk</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="./css/shared.css">
+	</head>
+    <body class="Background">
+        <div class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#github">GitHub</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Background video -->
+        <div id="home">
+            <video autoplay muted loop id="writing-video">
+                <source src="./video/video.mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- Video text -->
+        <div class="Video-text">
+            <h1>Peter's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>"Programming isn't about what you know; 
+                        <br>it's about what you can figure out.” 
+                        <br> -Chris Pine
+                    </q>
+                    <br>
+                    <br>My name is Peter. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+        <!-- End video text -->
+
+        <!-- About Section -->
+        <div class="row" id="about">
+            <!-- Left column -->
+            <div class="column-2">
+                    <img class="image" src="./img/suit.jpg">
+            </div>
+            <!-- Right column -->
+            <div class="column-1">
+                <h1>About</h1>
+                <p class="center">
+                    I am a software developer who loves to code!
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!-- GitHub Section -->
+        <div class="row" id="github">
+            <!-- Left column -->
+            <div class="column-1">
+                <h1>GitHub</h1>
+                <p class="center"c>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Jaqwith49" target="_blank">My GitHub</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="column-2">
+                <a href="https://github.com/Jaqwith49" target="_blank"><img src="./img/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="row" id="contact">
+            <!--Contact image, left column-->
+            <div class="column-2 column-tall">
+                <img src="./img/email.jpeg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="column-1 column-tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/xoqrpadw" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <footer class="footer">
+                <p class="center">Author: Peter J Falk</p>
+                <p class="center"><a href="mailto:falkman13@gmail.com">falkman13@gmail.com</a></p>
+            </footer>
+        </div>
+    </body>
+</html>
