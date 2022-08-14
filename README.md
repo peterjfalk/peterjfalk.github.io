@@ -1,4 +1,4 @@
-# jaqwith49.github.io
+# peterjfalk.github.io
 
 Projects I have completed as a student in the Tech Academy:
 
